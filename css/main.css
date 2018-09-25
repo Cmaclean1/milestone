@@ -1,0 +1,25 @@
+/****BASE STYLES ****/
+body {
+    background-color: #d4d4d4;
+}
+
+/****HEADER*****/
+
+header {
+    background-color: #1a1a1a;
+
+}
+
+nav {
+    float: right;
+}
+/*****LAYOUT******/
+.full-wdith {
+    width: 1400px;
+    margin: 0 auto;
+}
+
+.half-width {
+    width: 700px;
+    float: left;
+}
