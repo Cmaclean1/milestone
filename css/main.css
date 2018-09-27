@@ -2,6 +2,7 @@
 
 body {
     font-family: 'Raleway', sans-serif;
+    color: #000000;
 }
 
 #work {
@@ -32,16 +33,17 @@ body {
 
 
 header {
-    height: 700px;
-    background: url("../img/mountain-sun.png");
+    height: 600px;
+    background: url("../img/fix-mtn.png");
     background-size: contain;
-    background-color: #31424b;
+    background-color: #ffffff;
+  /****  background-repeat: *****/
 }
 
 header h1 {
     font-family: 'Rock Salt', 'cursive';
     color: #fda92f;
-    font-size: 28px;
+    font-size: 24px;
     padding-left: 40px;
     border-bottom: 2px solid #fda92f;
     width: 300px;
@@ -59,12 +61,12 @@ nav ul li {
     display: inline-block;
 }
 
-nav ul li a{
+nav ul li a {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 18px;
-    color: #ffffff;
+    color: black;
     padding-left: 20px;
 
 }
@@ -72,10 +74,10 @@ nav ul li a{
 header h2 {
     width: 600px;
     clear: both;
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 30px;
-    color: #cccccc;
+    color: #31424b;
     padding-left: 40px;
 
 }
@@ -88,68 +90,92 @@ header h2 span {
 /*****WORK*****/
 
 #work  {
-    background: #f0f3f5;
     text-align: left;
 }
 
 
 #work .full-width {
-    padding: 15px 10px;
+
+}
+
+#work .half-width {
+  width: 500px;
+
 }
 
 #work h2 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: #31424b;
-    
-    margin-bottom: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
 
 }
 
 #work h4 {
-    font-family: 'Rock Salt', cursive;
+    font-family: 'Montserrat', cursive;
     font-size: 24px;
-    margin-left: 35px;
 }
 
-#work p {
-    width: 400px;
 
-    font-size: 22px;
-    text-align: center;
+#work p {
+    font-size: 18px;
     clear: both;
 }
 
-#web-img {
-    width: 500px;
-    padding-bottom: 100px;
+/******WEB Portfolio ******/
+
+#webp {
+    padding-left: 150px;
+    padding-top: 75px;
+}
+
+#webp h4 {
+    padding-left: 100px;
+}
+#webp p {
+    width: 350px;
+    padding-left: 100px;
 }
 
 #web-img img{
   float: right;
-  padding-top: 10px;
+  width: 300px;
+}
+/*****PHOTOS AND ILLUSTRATIONS ******/
+
+#drawp {
+    padding-left: 200px;
+    padding-top: 75px;
+}
+
+#drawp p {
+    width: 350px;
+
+}
+
+#drawp h4 {
+    padding-right: 200px;
 }
 
 
 #illustrations img {
-  padding-left: 100px;
+  padding-left: 250px;
+
 }
 
-#work .full-width img #poppy{
-    margin: 0 auto;
-}
+
 
 /*****ABOUT ****/
 
-
+#about {
+  background: url("../img/snow-bg.png");
+  background-size: cover;
+}
 
 #about .full-width {
     padding: 15px 10px;
 }
 
 #about h2 {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Rock Salt', cursive;
   font-size: 40px;
   text-align: center;
   color: #31424b;
