@@ -1,25 +1,168 @@
-/****BASE STYLES ****/
+/*****BASE STYLES*****/
+
 body {
-    background-color: #d4d4d4;
+    font-family: 'Raleway', sans-serif;
 }
 
-/****HEADER*****/
-
-header {
-    background-color: #1a1a1a;
+#work {
+    height: 1500px;
 
 }
 
-nav {
-    float: right;
+#about {
+  height: 964px;
 }
-/*****LAYOUT******/
-.full-wdith {
-    width: 1400px;
-    margin: 0 auto;
+#contact {
+  height: 600px;
+}
+
+
+/**** layout ****/
+
+.full-width {
+  width: 1400px;
+  margin: 0 auto;
 }
 
 .half-width {
     width: 700px;
     float: left;
+}
+/**** HEADER *****/
+
+
+header {
+    height: 700px;
+    background: url("../img/mountain-sun.png");
+    background-size: contain;
+    background-color: #31424b;
+}
+
+header h1 {
+    font-family: 'Rock Salt', 'cursive';
+    color: #fda92f;
+    font-size: 28px;
+    padding-left: 40px;
+    border-bottom: 2px solid #fda92f;
+    width: 300px;
+  }
+
+nav {
+    float: right;
+    margin: 0;
+    padding-right: 20px;
+    padding-top: 20px;
+
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    padding-left: 20px;
+
+}
+
+header h2 {
+    width: 600px;
+    clear: both;
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+    line-height: 30px;
+    color: #cccccc;
+    padding-left: 40px;
+
+}
+
+header h2 span {
+    color: #fda92f;
+}
+
+
+/*****WORK*****/
+
+#work  {
+    background: #f0f3f5;
+    text-align: left;
+}
+
+
+#work .full-width {
+    padding: 15px 10px;
+}
+
+#work h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #31424b;
+    
+    margin-bottom: 50px;
+
+}
+
+#work h4 {
+    font-family: 'Rock Salt', cursive;
+    font-size: 24px;
+    margin-left: 35px;
+}
+
+#work p {
+    width: 400px;
+
+    font-size: 22px;
+    text-align: center;
+    clear: both;
+}
+
+#web-img {
+    width: 500px;
+    padding-bottom: 100px;
+}
+
+#web-img img{
+  float: right;
+  padding-top: 10px;
+}
+
+
+#illustrations img {
+  padding-left: 100px;
+}
+
+#work .full-width img #poppy{
+    margin: 0 auto;
+}
+
+/*****ABOUT ****/
+
+
+
+#about .full-width {
+    padding: 15px 10px;
+}
+
+#about h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 40px;
+  text-align: center;
+  color: #31424b;
+  border-bottom:  2px solid #31424b;
+  margin-bottom: 50px;
+}
+
+#about img {
+    border: 2px solid #fda92f;
+    float: left;
+    margin-left: 200px;
+}
+
+#about ul {
+    list-style: circle;
 }
