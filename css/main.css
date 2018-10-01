@@ -106,14 +106,19 @@ header h2 span {
 #work h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
-    text-align: right;
-    padding-right: 485px;
+    text-align: center;
+
 
 }
 
 #work h4 {
-    font-family: 'Montserrat', cursive;
+    font-family: 'Raleway', sans-serif;
     font-size: 24px;
+}
+
+#work h5 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
 }
 
 
@@ -125,57 +130,57 @@ header h2 span {
 /******WEB Portfolio ******/
 
 #webp {
-    padding-left: 225px;
-    padding-top: 75px;
+  padding-top: 100px;
 
 }
 
-#webp h4 {
-
-}
 #webp p {
-    width: 400px;
-
+    width: 250px;
 }
 
 #webimg {
-    padding-bottom: 100px;
-    padding-right: 100px;
+    float: left;
+    padding-left: 250px;
     padding-top: 100px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+
 }
 
-#web-img img{
-  float: right;
-  width: 300px;
+#jap {
+    padding-right: 100px;
+
 }
-#web-img #rogue {
-    padding-bottom: 50px;
+
+
+#jaimg {
+    float: left;
+    padding-left: 250px;
+    padding-right: 50px;
+
 }
 /*****PHOTOS AND ILLUSTRATIONS ******/
 
 #drawp {
-    padding-left: 260px;
+    float: left;
+    padding-left: 250px;
+    padding-top: 175px;
 
 }
 
-#drawp p {
-    width: 400px;
+#drawp a {
+    text-decoration-color: #fda92f;
+    color: inherit;
 }
 
-#drawp h4 {
+#illustrations {
+    float: right;
+    padding-top: 250px;
     padding-right: 100px;
-
 }
 
-#work #poppy {
-  padding-top: 75px;
-  padding-left: 175px;
-}
-
-
-#illustrations img {
-  padding-left: 225px;
-
+#illustrations p {
+    padding-left: 200px;
 }
 
 
@@ -217,4 +222,32 @@ header h2 span {
 
 #about ul {
     list-style: circle;
+}
+
+
+/****** CONTACT *****/
+
+#contact {
+    background: #ebebeb;
+
+}
+
+#contact a {
+    text-decoration: none;
+    color:  #C49075;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+    width: 200px;
+}
+
+#contact img {
+    width: 25%;
 }
