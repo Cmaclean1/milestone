@@ -45,7 +45,7 @@ header h1 {
     color: #fda92f;
     font-size: 24px;
     padding-left: 40px;
-    border-bottom: 2px solid #fda92f;
+    border-bottom: 5px double #31424b;
     width: 300px;
   }
 
@@ -72,13 +72,13 @@ nav ul li a {
 }
 
 header h2 {
-    width: 600px;
+
     clear: both;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
     line-height: 30px;
     color: #31424b;
-    padding-left: 40px;
+    padding-left: 35px;
 
 }
 
@@ -106,6 +106,8 @@ header h2 span {
 #work h2 {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
+    text-align: right;
+    padding-right: 485px;
 
 }
 
@@ -123,41 +125,56 @@ header h2 span {
 /******WEB Portfolio ******/
 
 #webp {
-    padding-left: 150px;
+    padding-left: 225px;
     padding-top: 75px;
+
 }
 
 #webp h4 {
-    padding-left: 100px;
+
 }
 #webp p {
-    width: 350px;
-    padding-left: 100px;
+    width: 400px;
+
+}
+
+#webimg {
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
 }
 
 #web-img img{
   float: right;
   width: 300px;
 }
+#web-img #rogue {
+    padding-bottom: 50px;
+}
 /*****PHOTOS AND ILLUSTRATIONS ******/
 
 #drawp {
-    padding-left: 200px;
-    padding-top: 75px;
+    padding-left: 260px;
+
 }
 
 #drawp p {
-    width: 350px;
-
+    width: 400px;
 }
 
 #drawp h4 {
-    padding-right: 200px;
+    padding-right: 100px;
+
+}
+
+#work #poppy {
+  padding-top: 75px;
+  padding-left: 175px;
 }
 
 
 #illustrations img {
-  padding-left: 250px;
+  padding-left: 225px;
 
 }
 
@@ -175,18 +192,27 @@ header h2 span {
 }
 
 #about h2 {
-  font-family: 'Rock Salt', cursive;
+  font-family: 'Montserrat', sans-serif;
   font-size: 40px;
   text-align: center;
   color: #31424b;
-  border-bottom:  2px solid #31424b;
-  margin-bottom: 50px;
-}
+  text-shadow: 0 1px #737373;
 
+}
+/****
 #about img {
     border: 2px solid #fda92f;
     float: left;
     margin-left: 200px;
+} ****/
+
+#about p {
+    color: #31424b;
+    font-size: 18px;
+    text-shadow: 0 1px #737373;
+    width: 400px;
+    padding-left: 500px;
+    padding-top: 25px;
 }
 
 #about ul {
