@@ -220,7 +220,7 @@ header h2 span {
   font-size: 40px;
   text-align: center;
   color: #31424b;
-  text-shadow: 0 1px #737373;
+  text-shadow: 0 1px #31424b;
 
 }
 /****
@@ -233,11 +233,12 @@ header h2 span {
 #about p {
     color: #31424b;
     font-size: 18px;
-    text-shadow: 0 1px #737373;
-    width: 400px;
-    padding-left: 500px;
-    padding-top: 25px;
-}
+    text-shadow: 0 1px #31424b;
+    padding-left: 425px;
+    padding-top: 50px;
+    width: 500px;
+
+  }
 
 #about ul {
     list-style: circle;
@@ -250,7 +251,7 @@ header h2 span {
 #contact .full-width {
     padding: 15px 10px;
     margin: 0 auto;
-    background-color: #ebebeb;
+
     height: 400px;
 }
 
@@ -260,6 +261,7 @@ header h2 span {
     text-align: center;
     padding-top: 20px;
     color: #31424b;
+    text-shadow: 0 1px #fda92f;
 }
 
 
@@ -272,7 +274,7 @@ header h2 span {
 #contact #email {
   float: left;
   text-align: center;
-  padding-left: 358px;
+  padding-left: 355px;
   padding-top: 25px;
 
 }
@@ -280,14 +282,12 @@ header h2 span {
 
 #contact #social {
     width: 700px;
-    padding-top: 75px;
+    padding-top: 50px;
     padding-left: 432px;
 
 }
 
 
-
-}
 #contact #social h4, #contact #email h4 {
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
