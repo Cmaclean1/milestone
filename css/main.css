@@ -6,15 +6,16 @@ body {
 }
 
 #work {
-    height: 1500px;
+    height: 1650px;
 
 }
 
 #about {
   height: 964px;
 }
+
 #contact {
-  height: 600px;
+    height: 400px;
 }
 
 
@@ -29,16 +30,18 @@ body {
     width: 700px;
     float: left;
 }
+
 /**** HEADER *****/
 
 
 header {
-    height: 600px;
+    height: 750px;
     background: url("../img/fix-mtn.png");
     background-size: contain;
     background-color: #ffffff;
   /****  background-repeat: *****/
 }
+
 
 header h1 {
     font-family: 'Rock Salt', 'cursive';
@@ -89,6 +92,7 @@ header h2 span {
 
 /*****WORK*****/
 
+
 #work  {
     text-align: left;
 }
@@ -107,7 +111,8 @@ header h2 span {
     font-family: 'Montserrat', sans-serif;
     font-size: 30px;
     text-align: center;
-
+    padding-top: 20px;
+    color: #31424b;
 
 }
 
@@ -119,53 +124,63 @@ header h2 span {
 #work h5 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
+
 }
 
 
 #work p {
-    font-size: 18px;
+    font-size: 16px;
     clear: both;
 }
 
 /******WEB Portfolio ******/
 
 #webp {
-  padding-top: 100px;
+  padding-top: 75px;
 
 }
 
-#webp p {
-    width: 250px;
-}
 
 #webimg {
-    float: left;
-    padding-left: 250px;
-    padding-top: 100px;
-    padding-right: 50px;
-    padding-bottom: 25px;
+  float: left;
+  margin: 75px 50px 25px 250px;
+  border-bottom: 2px solid #ebebeb;
+  border-right: 2px solid #ebebeb;
+  border-left: 2px solid #ebebeb;
+  padding: 20px 25px;
+
 
 }
 
-#jap {
-    padding-right: 100px;
-
-}
 
 
 #jaimg {
     float: left;
-    padding-left: 250px;
-    padding-right: 50px;
+    margin-left: 250px;
+    margin-right: 50px;
+    border-bottom: 2px solid #ebebeb;
+    border-right: 2px solid #ebebeb;
+    border-left: 2px solid #ebebeb;
+    padding: 20px 25px;
 
 }
+
+
 /*****PHOTOS AND ILLUSTRATIONS ******/
 
 #drawp {
     float: left;
-    padding-left: 250px;
-    padding-top: 175px;
+    margin-left: 300px;
+    padding-top: 200px;
 
+}
+
+#drawp p {
+    width: 300px;
+}
+
+#drawp span {
+    color: #fda92f;
 }
 
 #drawp a {
@@ -175,12 +190,14 @@ header h2 span {
 
 #illustrations {
     float: right;
-    padding-top: 250px;
+    padding-top: 115px;
     padding-right: 100px;
 }
 
 #illustrations p {
-    padding-left: 200px;
+    text-align: right;
+    padding-right: 100px;
+
 }
 
 
@@ -190,10 +207,12 @@ header h2 span {
 #about {
   background: url("../img/snow-bg.png");
   background-size: cover;
+  background-color: #ebebeb;
 }
 
 #about .full-width {
     padding: 15px 10px;
+    margin: 0 auto;
 }
 
 #about h2 {
@@ -227,27 +246,69 @@ header h2 span {
 
 /****** CONTACT *****/
 
-#contact {
-    background: #ebebeb;
 
+#contact .full-width {
+    padding: 15px 10px;
+    margin: 0 auto;
+    background-color: #ebebeb;
+    height: 400px;
 }
+
+#contact h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+    color: #31424b;
+}
+
 
 #contact a {
     text-decoration: none;
-    color:  #C49075;
-    font-weight: bold;
-    font-size: 28px;
+    color:  #fda92f;
+    font-size: 20px;
 }
 
+#contact #email {
+  float: left;
+  text-align: center;
+  padding-left: 358px;
+  padding-top: 25px;
+
+}
+
+
+#contact #social {
+    width: 700px;
+    padding-top: 75px;
+    padding-left: 432px;
+
+}
+
+
+
+}
+#contact #social h4, #contact #email h4 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #31424b;
+
+}
 #contact ul {
     list-style: none;
 }
 
 #contact ul li {
     display: inline-block;
-    width: 200px;
+
 }
 
 #contact img {
     width: 25%;
+}
+
+#contact #cat {
+    float: right;
+    padding-left: 100px;
+
 }
