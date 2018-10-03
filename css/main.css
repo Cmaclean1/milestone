@@ -1,18 +1,20 @@
 /*****BASE STYLES*****/
 
 body {
-    font-family: 'Raleway', sans-serif;
-    color: #000000;
+    font-family: 'Noto Sans', sans-serif;
+    color: #31424b;
 }
+
 
 #work {
     height: 1650px;
-
 }
+
 
 #about {
   height: 964px;
 }
+
 
 #contact {
     height: 400px;
@@ -46,11 +48,25 @@ header {
 header h1 {
     font-family: 'Rock Salt', 'cursive';
     color: #fda92f;
+    text-shadow: 0 3px #ebebeb;
     font-size: 24px;
     padding-left: 40px;
-    border-bottom: 5px double #31424b;
-    width: 300px;
+    padding-top: 15px;
   }
+
+header h2 {
+    clear: both;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 18px;
+    color: #31424b;
+    text-shadow: 3px 3px #ebebeb;
+    padding-left: 45px
+  }
+
+  header h2 span {
+      color: #fda92f;
+  }
+
 
 nav {
     float: right;
@@ -65,32 +81,18 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     text-transform: uppercase;
     text-decoration: none;
-    font-size: 18px;
-    color: black;
+    font-size: 16px;
+    color: #31424b;
+    text-shadow: 1px 1px #fda92f;
     padding-left: 20px;
 
 }
 
-header h2 {
 
-    clear: both;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    line-height: 30px;
-    color: #31424b;
-    padding-left: 35px;
-
-}
-
-header h2 span {
-    color: #fda92f;
-}
-
-
-/*****WORK*****/
+/*****PORTFOLIO*****/
 
 
 #work  {
@@ -99,7 +101,8 @@ header h2 span {
 
 
 #work .full-width {
-
+      padding: 15px 10px;
+      margin: 0 auto;
 }
 
 #work .half-width {
@@ -108,23 +111,25 @@ header h2 span {
 }
 
 #work h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cutive Mono', monospace;
     font-size: 30px;
     text-align: center;
-    padding-top: 20px;
     color: #31424b;
+    text-shadow: 0 3px #ebebeb;
 
 }
 
 #work h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 24px;
+
 }
 
 #work h5 {
-    font-family: 'Raleway', sans-serif;
-    font-size: 20px;
-
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: italic;
 }
 
 
@@ -170,13 +175,14 @@ header h2 span {
 
 #drawp {
     float: left;
-    margin-left: 300px;
-    padding-top: 200px;
-
+    margin-left: 251px;
+    margin-top: 200px;
+    padding-left: 45px;
+    border-left: 2px solid #ebebeb;
 }
 
 #drawp p {
-    width: 300px;
+    width: 400px;
 }
 
 #drawp span {
@@ -186,17 +192,18 @@ header h2 span {
 #drawp a {
     text-decoration-color: #fda92f;
     color: inherit;
+    text-decoration-style: wavy;
 }
 
 #illustrations {
     float: right;
     padding-top: 115px;
-    padding-right: 100px;
+    margin-right: 98px;
 }
 
 #illustrations p {
     text-align: right;
-    padding-right: 100px;
+    margin-right: 100px;
 
 }
 
@@ -216,11 +223,11 @@ header h2 span {
 }
 
 #about h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cutive Mono', monospace;
   font-size: 40px;
   text-align: center;
   color: #31424b;
-  text-shadow: 0 1px #31424b;
+  text-shadow: 0 3px #ebebeb;
 
 }
 /****
@@ -232,11 +239,10 @@ header h2 span {
 
 #about p {
     color: #31424b;
-    font-size: 18px;
-    text-shadow: 0 1px #31424b;
-    padding-left: 425px;
-    padding-top: 50px;
-    width: 425px;
+    font-size: 16px;
+    padding-left: 535px;
+    padding-top: 25px;
+    width: 350px;
 
   }
 
@@ -251,17 +257,15 @@ header h2 span {
 #contact .full-width {
     padding: 15px 10px;
     margin: 0 auto;
-
     height: 400px;
 }
 
 #contact h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cutive Mono', monospace;
     font-size: 30px;
     text-align: center;
-    padding-top: 20px;
     color: #31424b;
-    text-shadow: 0 1px #fda92f;
+    text-shadow: 0 3px #ebebeb;
 }
 
 
@@ -289,7 +293,7 @@ header h2 span {
 
 
 #contact #social h4, #contact #email h4 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     font-size: 18px;
     color: #31424b;
 
@@ -305,10 +309,12 @@ header h2 span {
 
 #contact img {
     width: 25%;
+    padding-left: 2px;
 }
 
 #contact #cat {
     float: right;
     padding-left: 100px;
+    margin: 0 auto;
 
 }
