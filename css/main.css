@@ -86,7 +86,7 @@ nav ul li a {
     text-decoration: none;
     font-size: 16px;
     color: #31424b;
-    text-shadow: 1px 1px #fda92f;
+    text-shadow: 2px 2px #ebebeb;
     padding-left: 20px;
 
 }
@@ -195,6 +195,11 @@ nav ul li a {
     text-decoration-style: wavy;
 }
 
+#drawp span a {
+    text-decoration: none;
+    color: #31424b;
+}
+
 #illustrations {
     float: right;
     padding-top: 115px;
@@ -239,10 +244,13 @@ nav ul li a {
 
 #about p {
     color: #31424b;
-    font-size: 16px;
-    padding-left: 535px;
-    padding-top: 25px;
+    font-size: 18px;
+    margin-left: 510px;
+    margin-top: 20px;
+    padding: 25px 20px;
     width: 350px;
+    background-color: rgba(255, 255, 255, 0.3);
+    border: 2px solid rgba(253, 169, 47, 0.2);
 
   }
 
