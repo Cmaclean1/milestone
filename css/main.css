@@ -199,15 +199,18 @@ nav ul li a {
     color: #fda92f;
 }
 
-#drawp a {
-    text-decoration-color: #fda92f;
-    color: inherit;
-    text-decoration-style: wavy;
+#drawp a:link {
+    color: black;
+    text-decoration: none;
 }
 
-#drawp span a {
+#drawp a:hover {
+    color: #fda92f;
+}
+
+#drawp a:visited {
+    color: black;
     text-decoration: none;
-    color: #31424b;
 }
 
 #illustrations {
