@@ -37,20 +37,20 @@ body {
 
 
 header {
-    height: 750px;
-    background: url("../img/fix-mtn.png");
-    background-size: contain;
+    height: 700px;
+    background: url("../img/updatebg2.png");
+    background-size: cover;
     background-color: #ffffff;
   /****  background-repeat: *****/
 }
 
 
 header h1 {
-    font-family: 'Rock Salt', 'cursive';
-    color: #fda92f;
+    font-family: 'Nothing You Could Do', cursive;
+    color: #31424b;
     text-shadow: 0 3px #ebebeb;
-    font-size: 24px;
-    padding: 15px 0 0 40px;
+    font-size: 26px;
+    padding: 20px 0 0 40px;
   }
 
 header h2 {
@@ -79,12 +79,12 @@ nav ul li {
 }
 
 nav ul li a {
-    font-family: 'Noto Sans', sans-serif;
-    text-transform: uppercase;
+    font-family: 'nothing you could do', cursive;
+    /**text-transform: uppercase; **/
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     color: #31424b;
-    text-shadow: 2px 2px #ebebeb;
+    text-shadow: 1px 1px #fda92f;
     padding-left: 20px;
 
 }
@@ -200,16 +200,22 @@ nav ul li a {
 }
 
 #drawp a:link {
-    color: black;
+    color: #31424b;
+    text-decoration: none;
+}
+
+#drawp a:visited {
+    color: ##31424b;
     text-decoration: none;
 }
 
 #drawp a:hover {
     color: #fda92f;
+    text-decoration: none;
 }
 
-#drawp a:visited {
-    color: ##fda92f;
+#drawp a:active {
+    color: #31424b;
     text-decoration: none;
 }
 
@@ -232,6 +238,7 @@ nav ul li a {
 #about {
   background: url("../img/snow-bg.png");
   background-size: cover;
+  width: 100%;
   background-color: #ebebeb;
 }
 
