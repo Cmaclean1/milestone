@@ -76,15 +76,17 @@ nav {
 
 nav ul li {
     display: inline-block;
+
 }
 
 nav ul li a {
-    font-family: 'nothing you could do', cursive;
-    /**text-transform: uppercase; **/
-    text-decoration: none;
+    font-family: 'Cutive Mono', monospace;
     font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-style: italic;
     color: #31424b;
-    text-shadow: 1px 1px #fda92f;
+    text-shadow: 0 1px #ebebeb;
     padding-left: 20px;
 
 }
