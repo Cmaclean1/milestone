@@ -263,7 +263,8 @@ nav ul li a {
 
 #work #poppy {
 
-
+    margin-top: 10px;
+    margin-right: 5px;
     height: 7%;
     float: right;
 }
@@ -280,6 +281,8 @@ nav ul li a {
 #about .full-width {
     padding: 15px 10px;
     margin: 0 auto;
+    width: 53%;
+
 }
 
 #about h2 {
@@ -291,28 +294,50 @@ nav ul li a {
 
 }
 
+
+#about .half-width {
+
+    margin-top: 70px;
+    text-align: center;
+    padding: 55px 45px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-left: .5px solid rgba(35, 35, 35, 0.5);
+    border-bottom: 7px solid rgba(35, 35, 35, 0.5);
+    border-right: .5px solid rgba(35, 35, 35, 0.5);
+    border-top: 7px solid rgba(35, 35, 35, 0.5);
+    border-radius: .5%;
+
+
+  }
+
+
 #about img {
-    border: 2px solid rgba(235, 235, 235, 0.5);
-    float: right;
+    border-left: 10px outset rgba(35, 35, 35, 0.7);
+    border-right: 10px outset rgba(35, 35, 35, 0.7);
     border-radius: 50%;
-    margin-right: 585px;
-    margin-top: 20px;
+    margin-top: 27px;
+    margin-right: 10px;
+    float: left;
+
+
 }
 
 #about p {
-    clear: both;
-    font-family: 'Roboto', sans-serif;
+
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
-    font-size: 15px;
-    line-height: 28px;
-    color: #31424b;
-    margin: 40px 0 0 480px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #282828;
+    text-align: center;
+    padding: 20px 30px;
+  /**  margin: 40px 0 0 480px;
     padding: 20px 15px;
     width: 400px;
     background-color: rgba(255, 255, 255, 0.3);
     border-right: 7px solid rgba(235, 235, 235, 0.5);
     border-bottom: 7px solid rgba(235, 235, 235, 0.5);
-    border-radius: 15px;
+    border-radius: 15px; **/
 
   }
 
